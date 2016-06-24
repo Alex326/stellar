@@ -1,0 +1,16 @@
+{
+  "name": "stellar",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex326/stellar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alex326/stellar/issues"
+  },
+  "homepage": "https://github.com/Alex326/stellar#readme",
+  "devDependencies": {
+    "jade": "^1.11.0",
+    "stylus": "^0.54.5"
+  }
+}
