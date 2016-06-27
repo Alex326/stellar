@@ -7,12 +7,12 @@ html(lang='en')
     link(rel='stylesheet', href='./style.css')
     title Stellar
   body
-    .container-fluid
-      include _header.jade
-      .container
-        .mainWraper
-          include _navbar.jade
-          include _introduction.jade
-          include _service.jade
-          include _statistics.jade
-          include _footer.jade
+    include _mainHeader.jade
+    .container
+      .mainWraper
+        include _navbar.jade
+        include _introduction.jade
+        include _service.jade
+        include _statistics.jade
+        include _footer.jade
+      include _contacts.jade
