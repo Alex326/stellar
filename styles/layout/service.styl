@@ -1,6 +1,8 @@
 .service
-  padding 6rem
+  padding 5rem
   text-align center
+  @media screen and (max-width 768px)
+    padding 5rem 2rem
   &__caption
     color #000
     text-align center
@@ -20,13 +22,19 @@
         left 30%
   &Item
     padding-top 2rem
-    width 30%
+    margin-right -30px
     &__image
       display inline-block
       position relative
       padding 1.5rem
       box-shadow 0 0 0 .05rem #000, 0 0 0 1rem #fff, 0 0 0 1.05rem #000
       border-radius 100%
+      &_code
+        color #EFA8B0
+      &_doc
+        color #A89CC8
+      &_diamond
+        color #8CC9F0
     &__caption
       padding-top 2rem
   @media screen and (max-width 768px)

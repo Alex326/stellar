@@ -1,0 +1,61 @@
+.contacts
+  padding 4rem 0
+  color $black_05
+  @media screen and (max-width 768px)
+    padding 0
+  &__caption
+    color $black_05
+  & a.button
+    color $black_05
+    border-color $black_05
+  &List
+    list-style-type none
+    @media screen and (max-width 768px)
+      margin-left -2.5rem
+    &__item
+      padding 1rem
+      @media screen and (max-width 768px)
+        padding 1rem 0
+      &_address
+        position relative
+        padding-left 5rem
+        &:before
+          content 'Address'
+          position absolute
+          display inline-block
+          left -.1rem
+      &_phone
+        position relative
+        padding-left 5rem
+        &:before
+          content 'Phone'
+          position absolute
+          display inline-block
+          left -.1rem
+      &_email
+        position relative
+        padding-left 5rem
+        &:before
+          content 'Email'
+          position absolute
+          display inline-block
+          left -.1rem
+  &PartnersList
+    list-style-type none
+    display inline-block
+      @media screen and (max-width 768px)
+        display inline-block
+        margin-left -1.2rem
+    &__item
+      display inline-block
+      box-shadow 0 0 0 .05rem #fff
+      border-radius 100%
+      width 1rem
+      padding .5rem
+      margin 0 1rem 0 0
+  &__copyright
+    padding 4rem 0 2rem
+    text-align center
+    @media screen and (max-width 768px)
+      text-align left
+      font-size .7rem
